@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDAC Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+             background-color: #f5f5f5;
+           }
+        label {
+             display: block;
+             margin-top: 10px;
+             font-weight: bold;
+          }
+          #heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.studentinfo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+    </style>
+</head>
+
+<body>
+<h2 id="heading">STUDENT REGISTRATION FORM</h2>
+    <div class="studentinfo">
+        <label for="firstName">FIRST NAME</label>
+        <input type="text" id="firstName" placeholder="Enter First Name"> (max 30 characters a-z and A-Z)
+
+        <label for="lastName">LAST NAME</label>
+        <input type="text" id="lastName" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z)
+
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="dob">
+
+        <label for="email">EMAIL ID</label>
+        <input type="email" id="email" placeholder="Enter Your Email">
+
+        <label for="gender">GENDER</label>
+        <input type="radio" id="male">Male
+        <input type="radio" id="female">Female
+
+        <label for="address">ADDRESS</label>
+        <textarea id="address" cols="30" rows="10"></textarea>
+
+        <label for="city">CITY</label>
+        <input type="text" id="city"> (max 30 characters a-z and A-Z)
+
+        <label for="pinCode">PIN CODE</label>
+        <input type="number" id="pinCode"> (6 digit number)
+
+        <label for="state">STATE</label>
+        <input type="text" id="state" placeholder="Enter State"> (max 30 characters a-z and A-Z)
+
+        <label for="country">COUNTRY</label>
+        <input type="text" id="country">
+
+        <label for="hobbies">HOBBIES</label>
+        <input type="radio" id="drawing">Drawing
+        <input type="radio" id="singing">Singing
+        <input type="radio" id="dancing">Dancing
+        <input type="radio" id="sketching">Sketching
+        <input type="radio" id="others">Others
+
+        <label for="qualification">QUALIFICATION</label>
+        <table>
+            <thead>
+                <tr>
+                    <th>SI.No.</th>
+                    <th>Examination</th>
+                    <th>Board</th>
+                    <th>Percentage</th>
+                    <th>Year of Passing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  
+                </tr>
+            </tbody>
+        </table>
+
+        <label for="courses">COURSES APPLIED FOR</label>
+        <input type="radio" id="bca">BCA
+        <input type="radio" id="bcom">B.Com
+        <input type="radio" id="bsc">B.Sc
+        <input type="radio" id="ba">B.A
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

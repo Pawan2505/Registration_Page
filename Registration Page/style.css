@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#companylogo{
+    display: flex;
+}
+#company{
+    margin-left: 60px;
+    display: flex;
+    text-align: left;
+    margin-top: -10px;
+}
+#logo{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+#edu{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar{
+     text-align: right;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #3498db;
+    color: #fff;
+     padding: 10px;
+    text-align: center; 
+}
+
+
+nav div h2 {
+    margin: 0;
+}
+
+nav div span {
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+.regsterinfo{
+    display: flex;
+}
+.registerdate{
+    margin-left: 20vw;
+}
+
+.registration_form {
+    /* max-width: 700px; */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+
+.personalinfo{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.personalinfopartfirst,
+.personalinfopartsecond {
+    
+   justify-content: center;
+    flex: 1;
+}
+.personalinfopartsecond{
+    margin-top: 9vh;
+}
+.gender{
+    display: flex;
+}
+
+.registration_form h2 {
+    color: #333;
+}
+
+.registration_form p {
+    color: #777;
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+#fullname {
+    width: 190%;
+}
+input[type="radio"] {
+   margin-right: 5px;
+
+}
+
+#gdr{
+   margin-right: 300px;
+}
+#maleradio{
+   display: flex;
+   text-align: center;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div {
+    flex: 1;
+}
+
+.footer address {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer div hr {
+    border: 1px solid #fff;
+    margin: 0 10px;
+}
+
+.footer div span {
+    display: block;
+    margin-top: 10px;
+}
+
+
